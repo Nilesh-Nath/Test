@@ -9,7 +9,7 @@ const Work = () => {
       source: "#TechnicalSEO",
       link: "",
       readLink: ""
-    },
+    }, 
     {
       title: "Local SEO Optimization for a Small Business",
       description: "Optimized Google My Business profile, built local citations, and targeted geo-specific keywords—boosting local search rankings from page 3 to the top 3 results.",
@@ -18,7 +18,7 @@ const Work = () => {
       readLink: ""
     },
     {
-      title: "Content Strategy & Keyword Mapping",
+      title: "Content Strategy & Keyword Mapping", 
       description: "Created a keyword map aligned with search intent, optimized existing content, and developed a blog strategy that increased organic impressions by 70%.",
       source: "#ContentSEO",
       link: "",
@@ -95,7 +95,6 @@ const Work = () => {
         ))}
       </div>
 
-      {/* Mobile Layout - Stack vertically without drag */}
       <div className="md:hidden w-3/4 max-w-lg space-y-6">
         {articles.map((article, index) => (
           <article
