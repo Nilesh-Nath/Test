@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Jenthill';
+  src: url('/font/Jenthill.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    line-height: 1.75;
+    color: #404040;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+body::selection {
+  /* background-color: hsl(264, 51%, 71%); */
+  background-color: white;
+  color: hsl(164, 61%, 65%);
+}
+
+.Hero__eyebrow {
+    transform: rotate(-5deg);
+    transform-origin: bottom left;
+}
+
+.font-cursive {
+    font-family: Jenthill, sans-serif;
+}
+
+.color-mint{
+    color:hsl(164, 61%, 65%);
+}
+
+.bg-mint{
+    background-color: hsl(164, 61%, 65%);
+}
+
+.color-liliac{
+    color: hsl(264, 51%, 71%);
+}
+
+.bg-liliac{
+    background-color: hsl(264, 51%, 71%);
+}
+
+
+.color-sherbet{
+    color: hsl(55, 97%, 85%);
+}
+
+.bg-sherbet{
+    background-color: hsl(55, 97%, 85%);
+}
+
+.color-rose{
+    color: hsl(344, 56%, 69%);
+}
+
+.bg-rose{
+    background-color: hsl(344, 56%, 69%);
+}
+
+.button{
+    box-shadow: 4px 4px;
+}
+
+.button:hover{
+    box-shadow: 0px 0px;
+    transition: all 0.1s ease-in-out;
+    transform: translate(4px, 4px);
+}
+
+.slide-out {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
